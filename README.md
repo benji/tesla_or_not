@@ -1,0 +1,1 @@
+![](https://raw.github.com/benji/tesla_or_not/master/costs.png)
