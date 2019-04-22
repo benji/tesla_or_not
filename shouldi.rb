@@ -24,7 +24,7 @@ current_car_events = [
   },
   {
     name: 'new tires',
-    frequency: 3*365,
+    frequency: 2*365,
     cost: 600,
     starts_after: 0,
     stops_after: 9999999
@@ -76,8 +76,8 @@ tesla_car_events = [
   },
   {
     name: 'new tires',
-    frequency: 3*365,
-    cost: 600,
+    frequency: 2*365,
+    cost: 800,
     starts_after: 0,
     stops_after: 9999999
   },
@@ -134,7 +134,7 @@ def run_simulation(events, max_years)
   return data
 end
 
-max_years=20
+max_years=21
 g = Gruff::Line.new
 
 glabels = {}
